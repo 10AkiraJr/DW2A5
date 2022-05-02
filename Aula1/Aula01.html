@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "autor" content = "Roberto Akira">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Formulário</h1>
+
+    <form action="">
+
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="nome" id="nome" pattern="[a-z\s]+$" required>
+        </div>
+        
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+        </div>
+
+        <div>
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" pattern="\([0-9]{2}\)[0-9]{4,6}-[0-9]{3,4}$" required>
+       </div>
+       
+       <div>
+           <label for="cep">CEP:</label>
+           <input type="cep" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}" required>
+       </div>
+
+        <input type="submit" value="Gravar">
+
+    </form>
+</body>
+</html>
