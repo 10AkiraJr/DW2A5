@@ -1,0 +1,210 @@
+/* Gerais*/
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #353E48;
+    border-bottom: 1px solid #CCC;
+}
+
+.row img {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #f24040;
+    border: 2px solid #f24040;
+    margin-bottom: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #f24040cb;
+    border-color: 2px solid #f24040cb;
+}
+
+.class-body {
+    text-align: center;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#info-container .already-joined-msg {
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    padding: 10px;
+    width: 275px;
+}
+
+/* Navbar */
+#navbar img {
+    width: 50px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #353E48;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #FFF;
+}
+
+#navbar a:hover {
+    color: #f24040;
+}
+
+/* Search Container */
+#search-container {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: #ca4646
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Events list */
+#events-container{
+    padding: 50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #c7c7c7d3;
+    width: 100%;
+    border-radius: 05px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#cards-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5%;
+}
+
+#cards-container img{
+    max-height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-editora,
+.card-valor {
+    font-size: 14px;
+    color: #686767;
+    margin-bottom: 10px;
+}
+
+.card-area {
+    font-size: 14px;
+    color: #686767;
+    margin-bottom: 0px;
+}
+
+#items-list {
+    list-style: none;
+    font-size: 14px;
+    color: #686767;
+}
+
+#items-list li {
+    display: inline;
+    
+}
+
+/* Create Periodic page */
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input {
+    font-size: 12px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/* edit page */
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
